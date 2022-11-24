@@ -14,7 +14,7 @@ contract Marketplace is ReentrancyGuard {
     uint public immutable feePercent; // the fee percentage on sales 
     uint public itemCount; 
 
-    struct Item {
+    struct Item{
         uint itemId;
         IERC721 nft;
         uint tokenId;
